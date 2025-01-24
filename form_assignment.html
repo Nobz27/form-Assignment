@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Job Application Form</title>
+  </head>
+  <body>
+    <h1>Alfasan Uganda Limited</h1>
+    <h2>Job Application Form</h2>
+    <form
+      action="http://www.alfasanugandalimited/submit-job-application"
+      method="POST"></form>
+    
+      <label for="fullname">Full Name:</label>
+      <input type="text" name="fullname" id="fullname" /> <br /><br />
+
+      <label for="email">Email Address:</label>
+      <input type="email" name="email" id="email" /> <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" /><br /><br />
+
+      <label for="telephone">Telephone Number:</label>
+      <input type="tel" name="tel" id="tel" /><br /><br />
+
+      <label for="dob">Date Of Birth:</label>
+      <input type="date" name="date" id="date" /><br /><br />
+
+      <label for="job-postion">Job Position:</label>
+      <select>
+        <option value=""></option>
+        <option value="software-developer">Software Developer</option>
+        <option value="designer">Designer</option>
+        <option value="project-manager">Project Manager</option>
+      </select>
+      <br /><br />
+
+      <label for="applicants-availiability">Applicants Availability:</label>
+      <label for="fulltime">Full-time</label>
+      <input type="radio" name="availability" id="fulltime" value="full" />
+      <label for="parttime">Part-time</label>
+      <input type="radio" name="availability" id="parttime" value="part" />
+      <br /><br />
+
+      <label for="skills">Skills:</label>
+      <label for="html">Html</label>
+      <input type="checkbox" name="skill" id="html" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="skill" id="css" />
+      <label for="javascript">Javascript</label>
+      <input type="checkbox" name="skill" id="javascript" />
+      <label for="python">Python</label>
+      <input type="checkbox" name="skill" id="python" /> <br /><br />
+
+      <input type="file" name="file" id="file" /><br /><br />
+
+      <textarea
+        name="additional-comments"
+        id="additional-comments"
+        placeholder="Additional Comments"
+      ></textarea
+      ><br /><br />
+      <button type="submit">Submit</button> <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
